@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">10.13.4.1</domain>
+        <!-- คุณสามารถเพิ่มโดเมนอื่นๆ ที่คุณต้องการอนุญาต -->
+    </domain-config>
+</network-security-config>
